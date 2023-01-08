@@ -18,7 +18,7 @@ Sharding / Data Partitioning
   - A lookup service that knows the partitioning scheme and abstracts it away from the database access code.
   - Allow addition of db servers or change of partitioning schema without impacting application.
   - Con
-    - Can be a single point of failure.
+    - Can be a single point of failure. (A single point of failure is a part of a system that, if it fails, will stop the entire system from working.)
 
 ## Partitioning criteria
 - Key or hash-based partitioning
