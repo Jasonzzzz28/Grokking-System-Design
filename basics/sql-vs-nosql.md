@@ -25,7 +25,7 @@ SQL vs. NoSQL
   - Lines: connections between the entities
 - Neo4J, InfiniteGraph
 
-## Differences between SQL and NoSQL
+## Differences between SQL and NoSQL (https://www.mongodb.com/nosql-explained/nosql-vs-sql)
 ### Storage
 - SQL: store data in tables.
 - NoSQL: have different data storage models.
