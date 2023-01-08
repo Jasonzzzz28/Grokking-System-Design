@@ -40,7 +40,7 @@ Most of the constraints are due to the fact that operations across multiple tabl
 
 - Joins and denormalization
   - Joins will not be performance efficient since data has to be compiled from multiple servers.
-  - Workaround: denormalize the database so that queries can be performed from a single table. But this can lead to data inconsistency.
+  - Workaround: denormalize (add redundant data to one or more tables) the database so that queries can be performed from a single table. But this can lead to data inconsistency.
 - Referential integrity
   - Difficult to enforce data integrity constraints (e.g. foreign keys).
   - Workaround
