@@ -31,7 +31,7 @@ Each Long-Poll request has a timeout. The client has to reconnect periodically a
 ## WebSockets
 - A persistent full duplex communication channels over a single TCP connection. Both server and client can send data at any time.
 - A connection is established through WebSocket handshake.
-- Low communication overhead.
+- Low communication overhead. (communication overhead is the proportion of time you spend communicating with your team instead of getting productive work done)
 - Real-time data transfer.
 
 ## Server-Sent Event (SSE)
